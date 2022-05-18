@@ -3,6 +3,7 @@
 build
 
 ```
+$ export WASI_SDK_HOME=/Users/admin/env/wasi-sdk-14.0
 $ cmake -Bbuild -DCMAKE_BUILD_TYPE=Debug; cmake --build build
 $ cd build
 $ ./app/app
